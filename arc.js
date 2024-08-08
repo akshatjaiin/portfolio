@@ -23,10 +23,8 @@ window
     let string = "M y  L o v e l y S c r a p B o o k";
 
     let angle = Math.PI * 0.2; // in radians
-    let radius = 420;
-
-
-    context.translate(600, 600);
+    let radius = 480px;
+        context.translate(600, 600);
     context.rotate(-1 * angle / 2);
 
     for (let i = 0; i < string.length; i++) {
